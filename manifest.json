@@ -54,6 +54,12 @@
       "file": "modes/09_security_and_compliance.md",
       "description": "Select to perform a security and compliance audit.",
       "keywords": ["security", "compliance", "audit", "vulnerability", "license", "check"]
+    },
+    {
+      "name": "Update Framework",
+      "file": "modes/10_update_framework.md",
+      "description": "Select to update the framework files from a new version, preserving user data.",
+      "keywords": ["update", "framework", "new version", "upgrade"]
     }
   ]
 }

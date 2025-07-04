@@ -75,11 +75,14 @@ The primary workflow is centered around the `project_board.md` task board.
 ### 3. Management and Review
 
 *   **Your command:** `"show me the project board"`, `"audit the documentation for relevance"`, `"archive our session"`.
+*   **Framework Updates**: `"update framework from /path/to/new_version"`
+    *   **What the AI does**: Switches to **Update Framework Mode**. Compares versions, asks for confirmation if downgrading, copies new framework files (excluding user data like `project_board.md`, `session_memory.md`), and then re-initializes the framework via `bootstrap.md`.
 *   **What the AI does:**
     *   **Task Management**: Displays the `project_board.md`.
     *   **Documentation (Audit)**: Checks for discrepancies between code and docs.
     *   **Archive**: Saves the session summary to `session_memory.md`.
     *   **Reflect**: Analyzes past sessions to find bottlenecks and provide recommendations.
+    *   **Security and Compliance**: Performs security audits and compliance checks.
 
 ---
 
