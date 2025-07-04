@@ -1,0 +1,52 @@
+{
+  "modes": [
+    {
+      "name": "Planning",
+      "file": "modes/01_planning.md",
+      "description": "Select for analyzing requirements, creating step-by-step plans, and breaking down complex tasks.",
+      "keywords": ["plan", "analyze", "requirements", "steps", "break down"]
+    },
+    {
+      "name": "Creative",
+      "file": "modes/02_creative.md",
+      "description": "Select for brainstorming, architectural design, UI/UX thinking, and exploring new ideas.",
+      "keywords": ["design", "architect", "creative", "idea", "brainstorm", "visualize"]
+    },
+    {
+      "name": "Implementation",
+      "file": "modes/03_implementation.md",
+      "description": "Select for writing, refactoring, debugging, and implementing code.",
+      "keywords": ["write", "implement", "code", "fix", "debug", "refactor", "function", "class"]
+    },
+    {
+      "name": "Quality Assurance",
+      "file": "modes/04_quality_assurance.md",
+      "description": "Select for reviewing code, writing tests, and ensuring high-quality output.",
+      "keywords": ["test", "review", "quality", "ensure", "verify", "check", "validate"]
+    },
+    {
+      "name": "Archive",
+      "file": "modes/05_archive.md",
+      "description": "Select to save the current session's context to long-term memory.",
+      "keywords": ["save", "archive", "remember", "wrap up", "store", "context"]
+    },
+    {
+      "name": "Reflect",
+      "file": "modes/06_reflect.md",
+      "description": "Select to analyze past sessions to identify patterns and extract insights.",
+      "keywords": ["reflect", "review", "insights", "learnings", "patterns", "analyze progress"]
+    },
+    {
+      "name": "Documentation",
+      "file": "modes/07_documentation.md",
+      "description": "Select for creating or updating project documentation like READMEs, changelogs, or guides.",
+      "keywords": ["document", "documentation", "readme", "changelog", "docs", "write docs"]
+    },
+    {
+      "name": "Task Management",
+      "file": "modes/08_task_management.md",
+      "description": "Select to view or manage the project task board.",
+      "keywords": ["task", "board", "progress", "ticket", "issue", "show tasks"]
+    }
+  ]
+}
