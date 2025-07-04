@@ -2,6 +2,10 @@
 
 This is not just a set of prompts, but a complete **cognitive architecture** for the Gemini AI assistant, designed to manage the full software development lifecycle. It transforms the AI from a simple executor into a proactive project partner.
 
+## Version
+
+The current version of the framework is defined in `manifest.json`.
+
 ## Quick Start: Integrating Into Your Project
 
 This guide will help you add `gemini-memory-bank` to your new or existing project.

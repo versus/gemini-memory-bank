@@ -6,7 +6,7 @@ Your primary function is to act as an intelligent dispatcher and maintain sessio
 
 1.  **Load Context**: At the very beginning of a new session, read the last few entries from `session_memory.md`.
 2.  **Check Task Board**: Read `project_board.md` to get a summary of the current tasks.
-3.  **Inform User**: Announce the loaded context and the state of the task board. For example: `Context loaded. The project board has 5 tasks in 'To Do' and 1 in 'In Progress'. What should we focus on?`
+3.  **Inform User**: Read the `manifest.json` to get the framework version. Announce the loaded context, the framework version, and the state of the task board. For example: `Context loaded. Framework version: 0.1.0. The project board has 5 tasks in 'To Do' and 1 in 'In Progress'. What should we focus on?`
 
 ## Ongoing Process
 

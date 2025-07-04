@@ -1,4 +1,5 @@
 {
+  "version": "0.1.0",
   "modes": [
     {
       "name": "Planning",
@@ -47,6 +48,12 @@
       "file": "modes/08_task_management.md",
       "description": "Select to view or manage the project task board.",
       "keywords": ["task", "board", "progress", "ticket", "issue", "show tasks"]
+    },
+    {
+      "name": "Security and Compliance",
+      "file": "modes/09_security_and_compliance.md",
+      "description": "Select to perform a security and compliance audit.",
+      "keywords": ["security", "compliance", "audit", "vulnerability", "license", "check"]
     }
   ]
 }
