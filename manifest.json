@@ -1,5 +1,5 @@
 {
-  "version": "0.5.4",
+  "version": "0.8.0",
   "modes": [
     {
       "name": "Planning",
@@ -58,8 +58,20 @@
     {
       "name": "Update Framework",
       "file": "modes/10_update_framework.md",
-      "description": "Select to update the framework files from a new version, preserving user data.",
+      "description": "Select to autonomously update the framework from a new version, preserving all user data.",
       "keywords": ["update", "framework", "new version", "upgrade"]
+    },
+    {
+      "name": "Rabbit",
+      "file": "modes/11_rabbit.md",
+      "description": "Select to perform an interactive code review of staged changes, with automated fixing.",
+      "keywords": ["rabbit", "review", "commit", "diff", "analyze changes"]
+    },
+    {
+      "name": "Meta-Learning",
+      "file": "modes/12_meta_learning.md",
+      "description": "Select to learn from feedback and record user preferences to improve future performance.",
+      "keywords": ["learn", "feedback", "remember", "preference", "that's not right", "correction"]
     }
   ]
 }

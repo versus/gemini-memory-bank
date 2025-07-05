@@ -2,6 +2,10 @@
 
 This is not just a set of prompts, but a complete **cognitive architecture** for the Gemini AI assistant, designed to manage the full software development lifecycle. It transforms the AI from a simple executor into a proactive project partner.
 
+## Philosophy
+
+Why does this framework exist? Standard interaction with AI is stateless and chaotic. This framework imposes structure, turning the AI into a stateful, context-aware project manager. It's not about writing prompts; it's about building a shared understanding.
+
 ## Version
 
 The current version of the framework is defined in `manifest.json`.
