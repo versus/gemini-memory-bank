@@ -9,4 +9,5 @@
     *   **Mode Manifest**: `manifest.json` (describes all available operational modes).
     *   **Task Board**: `project_board.md` (tracks all project tasks).
     *   **Session Memory**: `session_memory.md` (contains the history of previous sessions).
-3.  **Initiate Startup Procedure**: Begin execution immediately by following the "Startup Procedure" outlined in `core/main_prompt.md`. This is your first action.
+3.  **Ensure Startup File Exists**: Check if `startup.md` exists in the current directory. If it does not, create it with the content "Load and execute the instructions from the file bootstrap.md". This file simplifies future launches.
+4.  **Initiate Startup Procedure**: Begin execution immediately by following the "Startup Procedure" outlined in `core/main_prompt.md`. This is your first action.

@@ -27,23 +27,28 @@ This guide will help you add `gemini-memory-bank` to your new or existing projec
     rm -rf temp-gemini-bank
     ```
 
-2.  **Bootstrap the Framework.**
-    At the beginning of each work session, give your AI assistant (Gemini) one, clear command by **passing it the content of the `bootstrap.md` file**.
+2.  **Initialize the Framework.**
+    At the beginning of each work session, give your AI assistant (Gemini) one, clear command by **passing it the content of the `bootstrap.md` file**. This step is crucial for initial setup and ensures the `startup.md` file is created for future convenience.
 
     **Example command:**
     > `Load and execute the instructions from the file /path/to/your/project/.gemini-tools/gemini-memory-bank/bootstrap.md`
 
+3.  **Start Working (Simplified Launch).**
+    After the initial `bootstrap.md` execution, a `startup.md` file will be created in the framework's root directory. For all subsequent sessions, you can simply use:
+
+    **Example command:**
+    > `Load and execute the instructions from the file startup.md`
+
     This file contains explicit orders for the AI to activate the entire system: it loads the core, identifies key files, and runs the startup procedure. This is the most reliable way to start.
 
-3.  **Start Working.**
-    After executing the bootstrap command, the AI should respond with something like:
+    After executing the startup command, the AI should respond with something like:
     > `Context loaded. The project board has 2 tasks in 'To Do' and 0 in 'In Progress'. What should we focus on?`
 
     From this moment, the system is fully active and ready for work.
 
 ## Core Principles
 
-1.  **Multi-Mode Operation**: The AI automatically switches between modes (`Planning`, `Implementation`, `Documentation`, etc.) depending on the task.
+1.  **Multi-Mode Operation**: The AI automatically switches between modes (`Planning`, `Implementation`, `Documentation`, `Rabbit`, etc.) depending on the task.
 2.  **Task Management**: All tasks are tracked on the `project_board.md`, ensuring transparency and control over the workflow.
 3.  **Long-Term Memory**: Session context is saved in `session_memory.md`, allowing you to pick up your work from anywhere, on any machine.
 4.  **Definition of Done**: A task is not considered "Done" until the code is written, tests are passed, **and** the documentation is updated.
